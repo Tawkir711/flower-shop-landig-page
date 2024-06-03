@@ -1,0 +1,25 @@
+.banner-container {
+  background: #FCEEF1;
+  padding: 10px 60px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-container img{
+  width: 100%;
+}
+.banner-title h1 {
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+.banner-title p{
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.banner-title button {
+  background-color: #E55473;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
