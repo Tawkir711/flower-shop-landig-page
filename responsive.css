@@ -25,4 +25,11 @@
   .flower img {
     width: 100%;
   }
+  
+  /* --------------- */
+
+  .feature-flower{
+    flex-direction: column;
+  }
+
 }

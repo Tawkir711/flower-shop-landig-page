@@ -54,3 +54,28 @@
 .flower p{
   color: #E55473;
 }
+/* -------------------------------------- */
+
+
+.flower-feature{
+  margin: 50px 0px 40px;
+  padding: 0px 50px;
+}
+.feature-flower{
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  gap: 20px;
+  
+}
+.flower-f img{
+  background: rgb(234, 232, 232);
+  width: 100%;
+  border-radius: 40%;
+}
+.flower-f h4, p{
+  padding-top: 10px;
+}
+.flower-f p{
+  color: #E55473;
+}
