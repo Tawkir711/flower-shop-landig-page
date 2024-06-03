@@ -10,4 +10,19 @@
   .banner-title {
     padding: 20px;
   }
+
+  /* banner close */
+
+  .flower-conainer{
+    padding: 0px 5px;
+  }
+  .flower-section{
+    grid-template-columns: auto;
+  }
+  .flower-title h1{
+    font-size: 25px;
+  }
+  .flower img {
+    width: 100%;
+  }
 }

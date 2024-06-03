@@ -23,3 +23,34 @@
   border: none;
   border-radius: 10px;
 }
+/* ---banner section close -------*/
+
+
+.flower-container {
+  margin: 60px 0px 40px;
+  padding: 0px 60px;
+}
+.flower-title {
+  text-align: center;
+}
+.flower-title h1 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+.flower-title p {
+  color: gray;
+}
+.flower-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+}
+.flower{
+  text-align: center;
+}
+.flower h4 {
+  padding: 10px;
+}
+.flower p{
+  color: #E55473;
+}
