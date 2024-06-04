@@ -1,30 +1,29 @@
 .banner-container {
-  background: #FCEEF1;
+  background: #fceef1;
   padding: 10px 60px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.img-container img{
+.img-container img {
   width: 100%;
 }
 .banner-title h1 {
   font-size: 60px;
   padding-bottom: 15px;
 }
-.banner-title p{
+.banner-title p {
   font-size: 18px;
   padding-bottom: 20px;
 }
 .banner-title button {
-  background-color: #E55473;
+  background-color: #e55473;
   color: white;
   padding: 15px;
   border: none;
   border-radius: 10px;
 }
 /* ---banner section close -------*/
-
 
 .flower-container {
   margin: 60px 0px 40px;
@@ -40,42 +39,96 @@
 .flower-title p {
   color: gray;
 }
-.flower-section{
+.flower-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 30px;
 }
-.flower{
+.flower {
   text-align: center;
 }
 .flower h4 {
   padding: 10px;
 }
-.flower p{
-  color: #E55473;
+.flower p {
+  color: #e55473;
 }
 /* -------------------------------------- */
 
-
-.flower-feature{
+.flower-feature {
   margin: 50px 0px 40px;
   padding: 0px 50px;
 }
-.feature-flower{
+.feature-flower {
   text-align: center;
   padding-top: 50px;
   display: flex;
   gap: 20px;
-  
 }
-.flower-f img{
+.flower-f img {
   background: rgb(234, 232, 232);
   width: 100%;
   border-radius: 40%;
 }
-.flower-f h4, p{
+.flower-f h4,
+p {
   padding-top: 10px;
 }
-.flower-f p{
-  color: #E55473;
+.flower-f p {
+  color: #e55473;
+}
+
+/* -------------------------- */
+
+.discount-section {
+  background-color: #fceef1;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 20px 50px;
+}
+.discount-title h5 {
+  font-style: italic;
+  color: #e55473;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.discount-title h1 {
+  font-size: 40px;
+}
+.discount-title p {
+  padding-bottom: 10px;
+  color: gray;
+}
+.time {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+.time div {
+  background-color: white;
+  width: fit-content;
+  padding: 10px 15px;
+  gap: 15px;
+}
+.time h2 {
+  border-bottom: 1px solid gray;
+}
+.h8{
+  color: #e55473;
+  border: 2px solid ;
+}
+.red{
+  color: #e55473;
+}
+.btn2 {
+  background-color:#e55473 ;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
