@@ -42,5 +42,7 @@
   .discount-title h1{
     font-size: 25px;
   }
-
+  .instagram-section {
+    grid-template-columns: auto;
+  }
 }
